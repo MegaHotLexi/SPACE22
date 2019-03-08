@@ -24,6 +24,10 @@ header{
 .logo span{
     font-size: 30px;
 }
+.logo a{
+    color: white; 
+    text-decoration: none;
+}
 .wrapper{
     display: grid;
     grid-template: 1fr;
