@@ -1,0 +1,116 @@
+
+body{
+    background-color: grey;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    
+}
+header{
+    background-image: url(/img/HEAD.jpg);
+    background-position: center;
+    color: white;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px 0 0 7%;    
+    text-shadow: 2px 1px 1px black;
+
+}
+.logo span{
+    font-size: 30px;
+}
+.wrapper{
+    display: grid;
+    grid-template: 1fr;
+    grid-template-rows: auto;
+    text-align: left;
+}
+
+.slogan{
+    text-transform: uppercase;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 17px;
+    margin: 0px 0 10px 0;
+    text-shadow: 2px 1px 1px black;
+}
+.sticky-nav{
+    background-color: white;
+    position: sticky;
+    top: 107px;
+}
+
+.sticky-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+.ruumis{
+    background-image: url(/img/BODY.jpg);
+   
+  
+    background-position: bottom;
+    background-size: cover;
+    min-height: 100vh
+}
+.main{
+    
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'Nasa1 Nasa2 Nasa3'
+    'Nasa4 Nasa5 Nasa6';
+    grid-gap: 80px;
+    margin: 30px auto;
+    width: 890px;
+    text-align: center;
+
+}
+.all-nasa{
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.all-nasa h4{
+    text-transform: uppercase;
+}
+.Nasa1{
+   grid-area: Nasa1;
+}
+.Nasa2{
+    grid-area: Nasa2;
+    height: 380px;
+ }
+ .Nasa3{
+    grid-area: Nasa3;
+    height: 380px;
+
+ }
+ .Nasa4{
+    grid-area: Nasa4;
+    height: 380px;
+ }
+ .Nasa5{
+    grid-area: Nasa5;
+    height: 380px;
+ }
+ .Nasa6{
+    grid-area: Nasa6;
+ }
+
+.frontpic{
+    width: 250px;
+    border-radius: 20px 20px 0 0;
+    margin: -5px;
+}
