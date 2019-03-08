@@ -7,7 +7,7 @@ body{
     
 }
 header{
-    background-image: url(/img/HEAD.jpg);
+    background-image: url(../img/HEAD.jpg);
     background-position: center;
     color: white;
     background-size: cover;
@@ -53,7 +53,7 @@ header{
 }
 
 .ruumis{
-    background-image: url(/img/BODY.jpg);
+    background-image: url(../img/BODY.jpg);
    
   
     background-position: bottom;
